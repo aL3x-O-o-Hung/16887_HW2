@@ -1,3 +1,1 @@
-Decompress the matchSIFT.zip first before running the code. For some reason it took me forever to upload the folder so I just uploaded a zip file.
-
 bundleAjustment_.m is made to also optimize the intrinsics, so to optimize the intrinsics, replace all the function bundleAjustment with bundleAjustment_ in SFMedu2.m. unpack.m is to unpack the x variable to solve when we also want to solve for the intrinsics. visualizeGraph.m and visualizeReprojection.m are what the homework ask for. The test1 and test2 folders in the im folder are the two sequence I used, where in test1 the camera shifts a lot between frames and in test2 it only shifts a little. Other files in the I'm folder are the results, it should be easy to figure out what the images are based on the names. 
